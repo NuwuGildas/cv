@@ -399,7 +399,7 @@ body {
     animation-name: touch;
     animation-duration: 300ms;
 }
-a{
+.link{
     font-size: 16px;
     text-decoration: none;
     color: #8a67c2;
