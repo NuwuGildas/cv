@@ -94,7 +94,7 @@ body {
         
     }
     .experience_txt >li {
-        width: 90% !important;
+        width: 100% !important;
     }
     .post{
         text-align: center;
@@ -398,6 +398,11 @@ body {
 .animate_scroll_btn{
     animation-name: touch;
     animation-duration: 300ms;
+}
+a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #8a67c2;
 }
 @keyframes touch {
   0% {transform: scale(1.0);}
