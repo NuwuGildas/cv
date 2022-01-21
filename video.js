@@ -128,6 +128,7 @@ function translate() {
 }
 function showPopup(){
       document.getElementById('popup1').classList.toggle('showOverlay');
+      document.getElementById('info').classList.toggle('info');
 }
 document.querySelector('.slider-cradle').onclick = (e)=>{
       console.log(e.target.parentNode.classList.contains('is-transitioned'));
