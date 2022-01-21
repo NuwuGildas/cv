@@ -420,6 +420,7 @@ body {
     position: absolute;
     top: 64px;
     right: 5px;
+    z-index: 99;
 
 }
  .slider-cradle {
