@@ -1,3 +1,15 @@
+// set default language and update language toggle if default lang exist 
+if(typeof localStorage.getItem("language") != 'string'){
+      localStorage.setItem("language","en");    
+}else{
+      if(localStorage.getItem("language") == 'en'){
+            document.querySelector('.slider-cradle').classList.remove('is-transitioned');
+      }else{
+            document.querySelector('.slider-cradle').classList.add('is-transitioned');
+      }
+      
+}
+
 let observer = new IntersectionObserver(
       (entries) => { 
             entries.forEach(entry => {
@@ -83,6 +95,7 @@ let frVersion = {
       "gce"             :"GCE Advanced Level",
       "languages"       :"Langues"     
 }
+
 translate();
 
 function translate() {
