@@ -72,7 +72,8 @@ let engVersion = {
       "degree"          :"Network and Telecommunication Degree",
       "hnd"             :"HND in Industrial Computing",
       "gce"             :"GCE Advanced Level",
-      "languages"       :"Languages"
+      "languages"       :"Languages",
+      "content"         :"Thanks for the visit ☺️ this website was completely realised with <h2>HTML, CSS, JavaSCript</h2><br>see you soon on my next projects 🙌🏾 "
 }
 let frVersion = {
       "title_experience":"MES EXPÉRIENCES",
@@ -93,7 +94,8 @@ let frVersion = {
       "degree"          :"Licence Réseaux et Télécommunications",
       "hnd"             :"BTS en informatique industrielle",
       "gce"             :"GCE Advanced Level",
-      "languages"       :"Langues"     
+      "languages"       :"Langues",
+      "content"         :"Merci pour votre visite ☺️ ce site web a été entièrement réalisé avec <h2>HTML, CSS, JavaSCript</h2><br>à bientôt sur mes prochains projets 🙌🏾 "  
 }
 
 translate();
@@ -113,6 +115,9 @@ function translate() {
                               str += '<li>'+elt+'</li>';
                         });
                         document.getElementById(key).innerHTML = str;
+                  break;
+                  case 'content':
+                        document.getElementById(key).innerHTML = JSONobj[key];
                   break;
                   default :
                         document.getElementById(key).innerText = JSONobj[key];
