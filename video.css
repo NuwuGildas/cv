@@ -99,6 +99,10 @@ body {
     .post{
         text-align: center;
     }
+    .flex-cradle {
+        top: 112px !important;
+        right: 2px !important;
+    }
 
 }
 /*for large screens and default*/
