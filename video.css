@@ -380,7 +380,7 @@ body {
     width: 60px;
     height: 60px;
     position: fixed;
-    bottom: 30px;
+    bottom: 50px;
     right: -80px;
     border-radius: 100%;
     background-image: radial-gradient( circle farthest-corner at 10% 20%, rgb(138 103 194) 0%, #301168 81.3% );
@@ -482,14 +482,14 @@ footer{
     justify-content: center;
     font-family: 'Raleway';
 }
-footer>a>svg{
+footer>svg{
     width: 20px;
     height: 20px;
     margin-left: 15px;
     fill: #fff;
     margin-top: 4px;
 }
-footer>a>svg:hover{
+footer>svg:hover{
     fill: var(--mainColor);
 }
 
@@ -507,7 +507,7 @@ footer>a>svg:hover{
     visibility: hidden;
     opacity: 0;
 }
-.overlay:target {
+.showOverlay {
     visibility: visible;
     opacity: 1;
 }
