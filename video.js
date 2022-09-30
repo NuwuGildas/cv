@@ -57,12 +57,12 @@ let engVersion = {
       "title_experience":"MY EXPERIENCES",
       "job_stroll"      :"Senior Full Stack  Developer",
       "experiences"     :[
-                              'Put in place and managed video streaming system on the furthermarket platform, using various technologies such as HLS, DASH for the video streaming',
-                              'I have built a video and audio calling System using WebRTC, between Furthermarket Users, we had to put in place a TURN and STUN server for the transfer of streams for users behind a NAT',
+                              'Put in place and managed video streaming system on the furthermarket platform, using various technologies such as HLS, DASH on a Node Server for the video streaming',
+                              'I have built a video and audio calling System using WebRTC, between Furthermarket Users, we had to put in place a TURN and STUN server and handled user subscription and authentication using websocket on a node server for the transfer of streams for users behind a NAT ',
                               'I have built the documentation website for the Further Market lscript Langouage using Laravel <a class="link" href="http://developer.furthermarket.com" target="_blank" rel="noopener noreferrer">link</a>',
                               'I was also in charge of the publication of the iOS app on the app store and also the control, update and modification of various cordova plugins for iOS in order to sweet the company needs',
-                              'I was also in charge of implementing a websocket system for the real time transfer of in app notifications and also instantaneous chat messages transfer between users using the in house script language FMScript'
-
+                              'I was also in charge of implementing a websocket system for the real time transfer of in app notifications and also instantaneous chat messages transfer between users using the in house script language FMScript and NodeJs server'
+                              
                         ],
       "title_pLang"     :"Programming Languages and Programming Technologies",
       "post"            :"FULL STACK DEVELOPER",
@@ -79,11 +79,11 @@ let frVersion = {
       "title_experience":"MES EXPÉRIENCES",
       "job_stroll"      :"Développeur Full Stack Sénior",
       "experiences"     :[
-                              'Mettre en place et gérer un système de streaming vidéo sur la plate-forme de Further Market, en utilisant diverses technologies telles que HLS, DASH pour le streaming vidéo',
-                              'Nous avons construit un système d\'appel vidéo et audio en utilisant WebRTC, entre les utilisateurs de Furthermarket, nous avons dû mettre en place un serveur TURN et STUN pour le transfert de flux entre les utilisateurs derrière un NAT',
+                              'Mettre en place et gérer un système de streaming vidéo sur la plate-forme de Further Market, en utilisant diverses technologies telles que HLS, DASH sur un serveur NodeJS pour le streaming vidéo',
+                              'Nous avons construit un système d\'appel vidéo et audio en utilisant WebRTC, entre les utilisateurs de Furthermarket, nous avons dû mettre en place un serveur TURN et STUN sur un serveur NodeJS pour le transfert de flux entre les utilisateurs derrière un NAT',
                               'Nous avons construit le site Web de documentation pour le langage FMScript de Further Market en utilisant Laravel <a class="link" href="http://developer.furthermarket.com" target="_blank" rel="noopener noreferrer">lien</a>',
                               'J\'étais également en charge de la publication de l\'application iOS sur l\'App Store ainsi que du contrôle, de la mise à jour et de la modification de divers plugins Cordova pour iOS afin de répondre aux besoins de l\'entreprise.',
-                              'J\'étais également en charge de la mise en place d\'un système de websocket pour le transfert en temps réel des notifications dans l\'application et également le transfert instantané de messages de chat entre les utilisateurs en utilisant le langage de script maison FMScript'
+                              'J\'étais également en charge de la mise en place d\'un système de websocket pour le transfert en temps réel des notifications dans l\'application et également le transfert instantané de messages de chat entre les utilisateurs en utilisant le langage de script maison FMScript et NodeJS'
 
                         ],
       "title_pLang"     :"Langages de programmation et technologies de programmation",
